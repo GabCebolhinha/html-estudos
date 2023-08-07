@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <Style>
+        body {
+            background-color: green;
+        }
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .box {
+            height: 200px;
+            width: 250px;
+            margin: 70px auto 0;
+            border-radius: 10px;
+        }
+        .box1 {
+            background-color: blue;
+        }
+        .box2 {
+            background-color: blueviolet;
+        }
+        .box3 {
+            background-color: aqua;
+        }
+
+        @media (max-widht: 1366px) {
+            .box1 {
+                display: none;
+            }
+        }
+        @media (max-widht: 320px) {
+            .container {
+                flex-wrap: wrap;
+            }
+            .box1, .box2, .box3 {
+                display: block;
+            } 
+        }
+        img {
+            width: 100%;
+            margin-top: 90px;
+            border: solid red;
+            border-radius: 40px;
+        }
+
+    </Style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </div>
+    <img src="../imagens/resp.png">
+    <img src="../imagens/telinha.png">
+</body>
+</html>
