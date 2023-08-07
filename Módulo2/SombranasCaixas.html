@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras e bordas</title>
+    <style>
+        h1 {
+            text-align: center;
+            background-color: grey;
+            width: 300px;
+            box-shadow: 10px 10px 10px black;
+            margin: auto;
+            font-size: 3em;
+            border-radius: 45px;
+
+        }
+        body {
+            background-color: rgb(30, 189, 30);
+        }
+        div {
+            width: 900px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px black;
+            text-align: center;
+            margin: auto;
+            
+
+
+        }
+        p {
+            font-size: 25px;
+        }
+        div.segundo {
+            border-radius: 10px 50px;
+            padding: 10px;
+            margin-top: 8px;
+        }
+        div#bola {
+            margin-top: 20px;
+            background-color: white;
+            border-radius: 50px;
+            height: 100px;
+            width: 100px;
+            margin-left: 0px;
+        }
+        h2 {
+            background-color: blueviolet;
+            width: 300px;
+            box-shadow: 8px 8px 8px black;
+            border-radius: 45px;
+            margin: auto;
+            padding: 10px;
+            text-align: center;
+            font-size: 2em;
+        }
+        img {
+            border-radius: 30px;
+            box-shadow: 10px 10px 10px black;
+            margin-top: 30px;
+            position: relative;
+            transform: translateX(0px);
+            animation: ladinho 4s ease-in-out infinite;
+            border: solid red;
+        }
+        @keyframes ladinho {
+            0% {
+                transform: translateX(0px);
+            }
+            50% {
+                transform: translateX(1000px);
+            }
+            100% {
+                transform: translateX(0px);
+            }
+        }
+        img:hover {
+            animation: none;
+
+        }
+        h3 {
+            text-align: center;
+            font-size: 2em;
+            box-shadow: 5px 5px 5px black;
+            background-color: crimson;
+            width: 300px;
+            padding: 10px;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 45px;
+        }
+        li {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sombras</h1>
+    <div>
+        <p>Sombra de caixas.</p>
+        <p>Quando você altera o primeiro valor de pixels da tag box-shadow,você mexe para a esquerda ou para a direita a sombra; o segundo é na vertical; e o terceiro é o expalhamento.</p>
+        <p>Também tem como criar sua própria somrba. É por meio da Ctrl + I (Death Tools).</p>
+    </div>
+    <h1>Bordas</h1>
+    <div class="segundo">
+        <p>Algo interessante sobre bordas é que se eu colocar dois valores o primeiro irá funcionar na vertical e o segundo na horizontal. Cima baixo, esquerda direita.</p> 
+        <p>Primeiro: superior esquerda e inferior direita iguais; segundo: superior direita e inferior esquerda iguais.</p> 
+        <p>Um exemplo é o 20 0.</p>
+    </div>
+    <div id="bola"></div>
+    <h2>Bordas decoradas</h2>
+    <img src="../testes/imagens/vd.jpg">
+    <h3>Usamos as tags:</h3>
+    <ul>
+        <li>Border-image-source: url(colocar o nome da imagem. não funciona o espaço.)</li>
+        <li>border-image-repeat: repeat/stretch.</li>
+        <p>Nesta tag também existe a opção stretch. Ele puxa.</p>
+        <li>Border-image-slice: "numero" como, por exempo o 20.</li>
+    </ul>
+    <p>Da para usar a tag border no modo short (url() "numero" repeat).</p>
+    
+
+</body>
+</html>

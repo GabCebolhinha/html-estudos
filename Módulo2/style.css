@@ -1,0 +1,82 @@
+#charset "UTF-8"
+/*
+    a # sempre que eu colocar em html=id e em css=#.
+    html=class , em css=.  
+
+*/
+* {
+    
+}
+body {
+    background-color:rgb(57, 150, 57);
+}
+main {
+    background-color: white;
+    border-radius: 40px;
+    padding: 2px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 10px black;
+    margin: auto;
+
+    min-width: 200px;
+    max-width: 980px;
+}
+main > p {
+    text-align: center;
+    color: gray;
+}
+
+h1 {
+    background-color: rgb(97, 97, 255);
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px black;
+
+}
+h2 {
+    background-color: aqua;
+}
+h2#principal {
+    background-color: bisque;
+}
+p {
+    font-family:cursive;
+    font-size: 2em;
+    text-align: center;
+    
+}
+h3 {
+    color:blueviolet
+}
+.intermediário {
+    color:burlywood
+}
+.dificil {
+    color:coral
+}
+nav {
+    margin: auto;
+    background-color: green;
+    width: 400px;
+    border-radius: 40px;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+
+}
+a {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+
+    
+
+}
+img {
+    margin-left: 200px;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+    border: solid red;
+    margin-top: 30px;
+    
+}

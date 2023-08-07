@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Na prática|boxes</title>
+    <style>
+        * {
+            padding:10px
+        }
+        body {
+            background-color: bisque;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            background-color: darkgray;
+            border: 10px;
+            border-style: double;
+            border-color: blue;
+            width: 700px;
+            padding-left: 10px;
+            /* 
+            margin-top:...;
+            margin-right:...;
+            margin-bottom:...;
+            margin-left:...;
+
+            Elas podem ser resumida a uma unica tag. margin: top right bottom left.
+            */
+            /*
+            BORDAS:
+            borda sólida: solid;
+            borda pontilhada: deshed;
+            borda pontilhadinho: dotted;
+            borda com linha dupla: double;
+            borda com margem 3d:  groove;
+
+            Elas podem ser resumida a uma unica tag. Border: widht style color.
+            */
+            /*
+            PADDING:
+            padding-top:...;
+            padding-right:...;
+            padding-bottom:...;
+            padding-left:...;
+            nessa ordem.
+
+            o Padding pode ser resumido a uma unica tag. padding: top right bottom left.
+
+            Se caso for colocado somente dois valores, o primero valor será usado para os lados verticais e o outro para a horizontal.
+            */
+        }
+        p {
+            text-align: justify;
+            font-size: 25px;
+            
+        }
+        h2 {
+            padding: 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            width: 300px;
+            background-color: darkgoldenrod;
+            border: solid;
+            border-color: blueviolet;
+            font-size: 2em;
+            text-align: center;
+            color:rgb(87, 85, 85);
+            box-shadow: 10px 10px 10px black;
+            margin:auto;
+        }
+        img {
+            width: 1200px;
+            box-shadow: 20px 10px 10px black;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Um pouco sobre o amanhecer</h1>
+    <p>31/10/2022</p>
+    <p>De manhã. ruídos organizados dos passárinhos chegam aos meus ouvidos. São lindos. </p>
+    <h1>Voltando para o assunto das caixas.</h1>
+    <p>existe uma função que se consegue encontrar nos navegador quando você clica Ctrl + shift + I.</p>
+    <p>Quando se fala de broda nós temos a largura, altura, profundidade, estilo, cor e se vai ser sólido, pontilhado,...</p>
+    <h2>Caixa.</h2>
+    <p>Para pôr a caixa no centro devemos usar a tag margin e marcar o auto.</p>
+    <p style="text-align:center;">A caixa acima é um exemplo disso.</p>
+    <p>O outline fica entre a borda e a margem.</p>
+    <h2>Uma resumida</h2>
+    <img src="Captura de tela 2022-10-31 230208.png">
+</body>
+</html>

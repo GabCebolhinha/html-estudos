@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo Responsivo</title>
+    <Style>
+        Body {
+            background-image: url(1393537.jpg); 
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+        nav {
+            background-image: linear-gradient(to right, blue, transparent 80%);
+            border-radius: 40px;
+            padding: 10px;
+            margin-top: 22px;
+            
+            
+
+        }
+        a {
+            color: red;
+            font-size: 21px;
+            margin-left: 20px;
+            text-decoration: none;
+            transition-duration: .5s;
+
+        }
+        a.externo::after {
+            content: '\00A0\1F517';
+        }
+        a:hover {
+            color: green;
+            font-size: 2em;
+        }
+        p {
+            font-size: 21px;
+            background-color: rgba(255, 255, 255, 0.575);
+            padding: 3px;
+            border-radius: 5px;
+
+        }
+        h1 {
+            text-align: center;
+            background-color: rgba(137, 43, 226, 0.452);
+            width: 600px;
+            margin: auto;
+            border-radius: 10px;
+
+        }
+        div.vídeo {
+            background-color: cornflowerblue;
+            margin-bottom: 12px;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 0px -20px;
+            padding-bottom: 25%;
+
+            position: relative;
+        }
+        div > iframe {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            height: 90%;
+            width: 90%;
+        }
+    </Style>
+</head>
+<body>
+    <header>
+        <h1>Vídeos Responsivo</h1>
+        <nav>
+            <a href="links.html" target="_blank" class="externo">links</a>
+            <a href="caixaspratica.html" target="_blank" class="externo">Caixas Práticas.</a>
+            <a href="sitedodesafio.html" target="_blank" class="externo">Site do Desafio</a>
+        </nav>
+        <p>Além do assunto sobre responsividade teremos outros assuntos como, por exemplo, tags novas e antigas.</p>
+    </header>
+
+    <main>
+        <h1>Artificios</h1>
+        <p>Primeiramente, vamos aprender a usar articifios para "ajustar" alguns vídeos que já venham pronto como, por exemplo, o a seguir...</p>
+        <div class="vídeo">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pWpqyXpZH98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
