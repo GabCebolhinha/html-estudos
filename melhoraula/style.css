@@ -86,6 +86,11 @@ a {
     margin-left: 30px;
     
 }
+a:hover {
+    background-color: blue;
+    border-radius: 40px;
+    font-size: 27px;
+}
 @keyframes move {
     0% {
         transform: translateX(0px);
