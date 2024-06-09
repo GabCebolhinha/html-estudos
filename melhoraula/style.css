@@ -83,21 +83,15 @@ a {
 }
 video {
     width: 1200px;
+    height: 200px;
     border-radius: 40px;
     border-color: red;
 
 }
-video:hover {
-    
-    border-color: red;
-}
+
 iframe {
     width: 1200px;
+    height: 200px;
     border-radius: 40px;
     border-color: red;
-}
-iframe:hover {
-   
-    border-color: red;
-    
 }
