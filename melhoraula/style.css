@@ -76,6 +76,7 @@ nav.move:hover {
     left: 50px;
     text-decoration: none;
     font-size: 20px;
+    position: absolute;
 }
 a {
     text-decoration: none;
