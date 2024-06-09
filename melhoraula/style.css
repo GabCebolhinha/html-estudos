@@ -48,8 +48,9 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 nav {
-    animation: none;
+    position: relative;
     padding: 8px;
+    
 
 }
 
@@ -76,6 +77,10 @@ a.move {
     transform: translateX(0px);
     animation: move 4s ease-in-out infinite;
 
+}
+a#parado {
+    font-size: 22px;
+    
 }
 @keyframes move {
     0% {
