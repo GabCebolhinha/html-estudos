@@ -8,7 +8,7 @@ header {
     background-color: green;
     border-radius: 30px;
     box-shadow: 10px 10px 10px rgba(0, 128, 0, 0.363);
-    padding: 15px;
+    padding: 20px;
 
 }
 
@@ -39,6 +39,7 @@ p {
 }
 nav {
     animation: none;
+    padding: 5px;
 
 }
 
@@ -52,7 +53,7 @@ a {
 }
 a:hover {
     background-color: rgba(0, 0, 255, 0.527);
-    font-size: 10px;
+    font-size: 20px;
     position: relative;
     text-decoration: underline;
 }
