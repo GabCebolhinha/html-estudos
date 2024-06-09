@@ -8,7 +8,7 @@ header {
     background-color: green;
     border-radius: 30px;
     box-shadow: 10px 10px 10px rgba(0, 128, 0, 0.363);
-    padding: 25px;
+    padding: 30px;
 
 }
 
@@ -35,7 +35,9 @@ h1 {
     text-align: center;
 }
 p {
-
+    font-size: 18px;
+    color: darkslateblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav {
     animation: none;
@@ -60,6 +62,9 @@ a:hover {
 }
 
 video {
-    width: 300px;
+    width: 600px;
+    border-radius: 40px;
+    border-color: red;
+    
 
 }
