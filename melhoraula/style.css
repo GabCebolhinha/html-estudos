@@ -23,6 +23,7 @@ main {
     box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.404);
     border-radius: 30px;
     padding: 40px;
+    border-top: 40px;
 
 
 }
@@ -50,42 +51,6 @@ p {
 nav {
     
     padding: 8px;
-
-
-}
-
-a {
-    color: black;
-    background-color: white;
-    padding: 6px;
-    border-radius: 30px;
-    position: absolute;
-    text-decoration: none;
-
-}
-
-a.move {
-    background-color: white;
-    color: black;
-    position: relative;
-    transform: translateX(0px);
-    animation: move 4s ease-in-out infinite;
-
-}
-a#parado {
-    font-size: 22px;
-    
-}
-@keyframes move {
-    0% {
-        transform: translateX(0px);
-    }
-    50% {
-        transform: translateX(-30px);
-    }
-    100% {
-        transform: translateX(60px);
-    }
 }
 
 video {
