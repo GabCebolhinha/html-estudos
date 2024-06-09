@@ -63,10 +63,21 @@ nav {
 a {
     text-decoration: none;
     color: black;
-    
-
-
-
+    font-size: 20px;
+    position: relative;
+    transform: translateX(0px);
+    animation: move 4s ease infinite;
+}
+@keyframes move {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(120px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
 }
 video {
     width: 600px;
