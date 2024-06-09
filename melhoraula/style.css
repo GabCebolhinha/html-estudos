@@ -71,12 +71,10 @@ nav.move {
     font-size: 20px;
     animation: move 4s ease-in-out infinite;
 }
-nav.move:hover {
-    padding: 8px;
-    left: 50px;
-    text-decoration: none;
-    font-size: 20px;
-    position: absolute;
+nav:hover {
+    position: fixed;
+    font-size: 23px;
+    color: rgb(218, 192, 192);
 }
 a {
     text-decoration: none;
