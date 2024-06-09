@@ -39,9 +39,10 @@ p {
 }
 
 a {
-
+    color: black;
 }
 
 video {
+    width: 300px;
 
 }
