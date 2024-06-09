@@ -72,7 +72,7 @@ nav.move {
     animation: move 4s ease-in-out infinite;
 }
 nav:hover {
-    position: fixed;
+    position: absolute;
     font-size: 23px;
     color: rgb(218, 192, 192);
 }
