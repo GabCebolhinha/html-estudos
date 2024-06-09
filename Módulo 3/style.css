@@ -68,7 +68,7 @@ nav {
 }
 nav.navdebaixo {
     margin-top: 30px;
-    display: flex;
+    
 
 }
 nav.move {
@@ -137,6 +137,7 @@ div.baixo {
     width: 800px;
     height: 500px;
     margin: auto;
+    display: block;
 
 
 }
