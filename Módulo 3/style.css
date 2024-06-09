@@ -119,3 +119,7 @@ iframe {
     border-radius: 40px;
     border-color: red;
 }
+img {
+    width: 1000px;
+    height: 200px;
+}
