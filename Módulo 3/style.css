@@ -131,9 +131,11 @@ img {
     margin: auto;
 }
 div.baixo {
-    background-color: white;
+    background-image: linear-gradient(to bottom, green, red, blue);
     border-radius: 40px;
     width: 800px;
     height: 500px;
+    margin: auto;
+
 
 }
