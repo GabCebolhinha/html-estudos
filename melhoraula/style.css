@@ -63,6 +63,12 @@ nav {
     left: 50px;
     text-decoration: none;
     font-size: 20px;
+}
+nav.move {
+    padding: 8px;
+    left: 50px;
+    text-decoration: none;
+    font-size: 20px;
     animation: move 4s ease-in-out infinite;
 }
 a {
