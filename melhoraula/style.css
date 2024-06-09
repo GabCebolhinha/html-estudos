@@ -33,7 +33,8 @@ footer {
     border-radius: 30px;
     box-shadow: 10px 10px 10px black;
     padding: 80px;
-    
+    margin-top: 40px;
+    border-color: rgba(128, 128, 128, 0.63);
 
 }
 
@@ -66,6 +67,14 @@ a:hover {
     position: relative;
     text-decoration: underline;
     color: red;
+}
+a.move {
+    background-color: rgba(0, 0, 255, 0.527);
+    font-size: 20px;
+    position: relative;
+    text-decoration: underline;
+    color: red;
+    transition: 4s ease-in-out;
 }
 
 video {
