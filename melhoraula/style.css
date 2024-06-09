@@ -6,6 +6,7 @@
 }
 body {
     background-image: url(imagens/269d733b6eede27e8dbed585ec2e85ea.jpg); background-attachment: fixed;
+    text-align: center;
 }
 
 header {
@@ -23,7 +24,7 @@ main {
     border-radius: 30px;
     padding: 40px;
     margin-top: 40px;
-    text-align: justify;
+    
 
 
 }
@@ -48,6 +49,7 @@ h1 {
     height: 30px;
     border-radius: 40px;
     padding: 8px;
+    
     
 }
 p {
@@ -80,7 +82,7 @@ a {
     }
 }
 video {
-    width: 1000px;
+    width: 1300px;
     border-radius: 40px;
     border-color: red;
 
@@ -91,7 +93,7 @@ video:hover {
     border-color: red;
 }
 iframe {
-    width: 1000px;
+    width: 1300px;
     border-radius: 40px;
     border-color: red;
 }
