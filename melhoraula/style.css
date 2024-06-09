@@ -23,6 +23,7 @@ main {
     border-radius: 30px;
     padding: 40px;
     margin-top: 40px;
+    text-align: justify;
 
 
 }
@@ -56,10 +57,13 @@ p {
 nav {
     padding: 8px;
     left: 50px;
-
-    
+    text-decoration: none;
 }
+a {
 
+
+
+}
 video {
     width: 600px;
     border-radius: 40px;
