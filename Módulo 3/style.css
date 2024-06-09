@@ -68,7 +68,7 @@ nav {
 }
 nav.navdebaixo {
     margin-top: 30px;
-    
+
 }
 nav.move {
     padding: 15px;
@@ -129,4 +129,11 @@ img {
     border-radius: 40px;
     box-shadow: 10px 10px 10px black;
     margin: auto;
+}
+div.baixo {
+    background-color: white;
+    border-radius: 40px;
+    width: 500px;
+    height: 300px;
+
 }
