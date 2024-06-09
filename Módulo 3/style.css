@@ -131,7 +131,7 @@ img {
     margin: auto;
 }
 div.baixo {
-    background-image: linear-gradient(to bottom, green, red, blue);
+    background-image: linear-gradient(to bottom, black, gray);
     border-radius: 40px;
     width: 800px;
     height: 500px;
