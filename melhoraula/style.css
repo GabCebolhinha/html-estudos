@@ -19,7 +19,6 @@ header {
 
 main {
     background-color: grey;
-    text-align: center;
     box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.404);
     border-radius: 30px;
     padding: 40px;
@@ -46,6 +45,8 @@ h1 {
     width: 700px;
     height: 30px;
     border-radius: 40px;
+    padding: 8px;
+    
 }
 p {
     font-size: 18px;
