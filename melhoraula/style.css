@@ -90,6 +90,7 @@ a:hover {
     background-color: blue;
     border-radius: 40px;
     font-size: 27px;
+    padding: 10px;
 }
 @keyframes move {
     0% {
