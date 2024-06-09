@@ -69,11 +69,9 @@ a:hover {
     color: red;
 }
 a.move {
-    background-color: rgba(0, 0, 255, 0.527);
-    font-size: 20px;
+    background-color: white;
+    color: black;
     position: relative;
-    text-decoration: underline;
-    color: red;
     transform: translateX(0px);
     animation: move 4s ease-in-out infinite;
 
@@ -83,7 +81,7 @@ a.move {
         transform: translateX(0px);
     }
     50% {
-        transform: translateX(30px);
+        transform: translateX(-30px);
     }
     100% {
         transform: translateX(60px);
