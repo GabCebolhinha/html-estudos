@@ -42,6 +42,7 @@ footer {
 
 h1 {
     text-align: center;
+    font-family: cursive;
     background-color: white;
     width: 700px;
     height: 30px;
@@ -79,7 +80,7 @@ a {
     }
 }
 video {
-    width: 600px;
+    width: 1000px;
     border-radius: 40px;
     border-color: red;
 
@@ -90,7 +91,7 @@ video:hover {
     border-color: red;
 }
 iframe {
-    width: 600px;
+    width: 1000px;
     border-radius: 40px;
     border-color: red;
 }
